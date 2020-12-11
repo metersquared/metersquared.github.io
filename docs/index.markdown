@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: about
-title: Arya Prastya
+title: Arya Prasetya
 permalink: /en/
 invisible: true
 seo:
