@@ -52,7 +52,7 @@ markdown: redcarpet
 redcarpet:
   extensions: ["tables", "fenced_code_blocks", "autolink", "footnotes", "with_toc_data"]
 theme: academic
-remote_theme: gaalcaras/academic
+remote_theme: metersquared/academic
 plugins:
   - jekyll-feed
 
