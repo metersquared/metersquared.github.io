@@ -32,7 +32,6 @@ remote_theme: academic
 plugins:
   - jekyll-feed
 
-markdown: Redcarpet::Markdown.new(renderer, extensions = {})
 
 # Exclude from processing.
 # The following items will not be processed, by default.
