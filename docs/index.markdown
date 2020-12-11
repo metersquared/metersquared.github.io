@@ -4,7 +4,6 @@
 
 layout: about
 title: Arya Prasetya
-invisible: true
 seo:
   title: Arya Prasetya, Aspiring Physicist
 
