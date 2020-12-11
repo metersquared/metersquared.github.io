@@ -25,7 +25,7 @@ description:
   en: An aspiring theoretical physicist and an avid badminton fan.
   id: Bermimpi untuk menjadi fisikawan teori dan fans berat badminton.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://metersquared.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 langs: ["en", "id"]
