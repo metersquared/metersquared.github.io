@@ -18,16 +18,39 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# General settings
 title: Arya P.
-email: arya.prasetya1997@gmail.com
+title_html: "<b>Arya</b>Prasetya"
 description: >- # this means to ignore newlines until "baseurl:"
-  An aspiring theoretical physicist and an avid badminton fan. 
+  en: An aspiring theoretical physicist and an avid badminton fan.
+  id: Bermimpi untuk menjadi fisikawan teori dan fans berat badminton.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+langs: ["id", "en"]
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: "en"
+      
+nb_posts_page: 3
+
+# Author
+email: arya.prasetya1997@gmail.com
 twitter_username: mmeter_squared
 github_username:  metersquared
+linkedin_username: prasetyaarya
+
+
+
+
 
 # Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables", "fenced_code_blocks", "autolink", "footnotes", "with_toc_data"]
 remote_theme: academic
 plugins:
   - jekyll-feed
