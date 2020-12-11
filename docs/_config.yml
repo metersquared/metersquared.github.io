@@ -21,7 +21,7 @@
 # General settings
 title: Arya P.
 title_html: "<b>A</b>rya <b>P</b>rasetya"
-description: >- # this means to ignore newlines until "baseurl:"
+description:
   en: An aspiring theoretical physicist and an avid badminton fan.
   id: Bermimpi untuk menjadi fisikawan teori dan fans berat badminton.
 baseurl: "" # the subpath of your site, e.g. /blog
