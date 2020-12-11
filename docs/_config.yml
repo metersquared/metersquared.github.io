@@ -20,7 +20,7 @@
 
 # General settings
 title: Arya Prasetya
-title_html: "<b style='color:red;'>A</b>rya<b style='color:red;'>P</b>rasetya"
+title_html: "<b style='color:#cc0000;'>A</b>rya_<b style='color:#cc0000;'>P</b>rasetya"
 description:
   en: An aspiring theoretical physicist and an avid badminton fan.
   id: Bermimpi untuk menjadi fisikawan teori dan fans berat badminton.
