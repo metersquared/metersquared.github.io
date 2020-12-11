@@ -28,7 +28,7 @@ twitter_username: mmeter_squared
 github_username:  metersquared
 
 # Build settings
-theme: academic
+remote_theme: academic
 plugins:
   - jekyll-feed
 
