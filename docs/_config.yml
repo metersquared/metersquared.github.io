@@ -51,7 +51,8 @@ linkedin_username: prasetyaarya
 markdown: redcarpet
 redcarpet:
   extensions: ["tables", "fenced_code_blocks", "autolink", "footnotes", "with_toc_data"]
-remote_theme: academic
+theme: academic
+remote_theme: gaalcaras/academic
 plugins:
   - jekyll-feed
 
