@@ -5,6 +5,8 @@
 layout: about
 title: Arya Prasetya
 invisible: true
+lang: id
+permalink: /id/
 seo:
   title: Arya Prasetya, Pengamat Fenomena Alam
 ---
