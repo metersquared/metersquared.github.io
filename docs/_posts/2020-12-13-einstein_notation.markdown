@@ -43,13 +43,15 @@ categories: science
 <p>Using the commutativity of multiplication (i.e. for some number a,b ab=ba), then:</p>
 <!-- /wp:paragraph -->
 
+
+
+<!-- wp:paragraph -->
+<p> $$B_x A_x+B_y A_y+B_z A_z=  \mathbf{B \cdot A} \blacksquare $$ </p>
+<!-- /wp:paragraph -->
+
 <!-- wp:quote -->
 <blockquote class="wp-block-quote"><p><strong><span style="color:#313131" class="tadv-color">Commutativity</span></strong></p><cite><span style="color:#313131" class="tadv-color">For you who don't know, the properties above are called the commutativity of dot products and anti-commutativity of cross products respectively. <strong>Commutativity</strong> comes from the word commute or move around. Simply put, this tells you how freely some mathematical variables can move under some operation. So if some operation allows you to move around the order of variable you can say that the operation commutes. When you add "anti-", it generally means that the associated property on the operation will turn the result to negative. </span></cite></blockquote>
 <!-- /wp:quote -->
-
-<!-- wp:paragraph -->
-<p> $$B_x A_x+B_y A_y+B_z A_z=  \mathbf{B \cdot A}$     $\blacksquare $$ </p>
-<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>Similarly, the anticommutativity of cross product can be proven the same way by expanding explicitly. What I used below is just the normal determinant.</p>
