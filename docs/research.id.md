@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Penelitian
+lang: id
 permalink: /id/research
 ---
 
