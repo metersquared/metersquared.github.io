@@ -4,5 +4,5 @@ title: Blog
 permalink: /blog/
 invisible:
 seo:
-  title: Arya Prasetya | Blog
+  title: Blog | Arya Prasetya
 ---
