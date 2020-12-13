@@ -130,7 +130,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$$= A_yC_yB_zD_z+A_zC_zB_yD_y-A_yD_yB_zC_z-A_zD_zB_yC_y$$ $$+ A_zC_zB_xD_x+A_xC_xB_zD_z-A_zD_zB_xC_x-A_xD_xB_zC_z+ A_xC_xB_yD_y+A_yC_yB_xD_x-A_xD_xB_yC_y-A_yD_yB_xC_x $$   </p>
+<p>$$= A_yC_yB_zD_z+A_zC_zB_yD_y-A_yD_yB_zC_z-A_zD_zB_yC_y$$ $$+ A_zC_zB_xD_x+A_xC_xB_zD_z-A_zD_zB_xC_x$$ $$-A_xD_xB_zC_z+ A_xC_xB_yD_y+A_yC_yB_xD_x$$ $$-A_xD_xB_yC_y-A_yD_yB_xC_x $$   </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
