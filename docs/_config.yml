@@ -48,7 +48,7 @@ linkedin_username: prasetyaarya
 
 
 # Build settings
-theme: academic
+remote_theme: metersquared/academic
 plugins:
   - jekyll-feed
 
