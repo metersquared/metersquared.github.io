@@ -48,6 +48,9 @@ linkedin_username: prasetyaarya
 
 
 # Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables", "fenced_code_blocks", "autolink", "footnotes"]
 remote_theme: metersquared/academic
 plugins:
   - jekyll-feed
