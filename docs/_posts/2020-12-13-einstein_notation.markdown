@@ -74,7 +74,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$$= -\begin{vmatrix} \mathbf{e_x} &amp;  \mathbf{e_y}  &amp;  \mathbf{e_z} \\ B_x &amp; B_y &amp; B_z\\ A_x &amp; A_y &amp; A_z \end{vmatrix}=-\mathbf{B \times A} $$    \blacksquare$$</p>
+<p>$$= -\begin{vmatrix} \mathbf{e_x} &amp;  \mathbf{e_y}  &amp;  \mathbf{e_z} \\ B_x &amp; B_y &amp; B_z\\ A_x &amp; A_y &amp; A_z \end{vmatrix}=-\mathbf{B \times A}    \blacksquare$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -98,7 +98,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Let's seperate it into small pieces $$\mathbf{A \times B}\text{ and }\mathbf{C \times D}$$, Then work out their dot products.</p>
+<p>Let's seperate it into small pieces $$\mathbf{A \times B}\text{ and }\mathbf{C \times D}$$Then work out their dot products.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -122,7 +122,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p> $$(A_yB_z-A_zB_y) (C_yD_z-C_zD_y)=A_yC_yB_zD_z+A_zC_zB_yD_y-A_yD_yB_zC_z-A_zD_zB_yC_y$$ </p>
+<p> $$(A_yB_z-A_zB_y) (C_yD_z-C_zD_y)$$ $$=A_yC_yB_zD_z+A_zC_zB_yD_y-A_yD_yB_zC_z-A_zD_zB_yC_y$$ </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -130,7 +130,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$$= A_yC_yB_zD_z+A_zC_zB_yD_y-A_yD_yB_zC_z-A_zD_zB_yC_y+ A_zC_zB_xD_x+A_xC_xB_zD_z-A_zD_zB_xC_x-A_xD_xB_zC_z+ A_xC_xB_yD_y+A_yC_yB_xD_x-A_xD_xB_yC_y-A_yD_yB_xC_x $$   </p>
+<p>$$= A_yC_yB_zD_z+A_zC_zB_yD_y-A_yD_yB_zC_z-A_zD_zB_yC_y$$ $$+ A_zC_zB_xD_x+A_xC_xB_zD_z-A_zD_zB_xC_x-A_xD_xB_zC_z+ A_xC_xB_yD_y+A_yC_yB_xD_x-A_xD_xB_yC_y-A_yD_yB_xC_x $$   </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -138,7 +138,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$$=A_yC_y(B_xD_x+B_zD_z)+A_xC_x(B_zD_z+B_yD_y)+A_zC_z(B_yD_y+B_xD_x)-A_yD_y(B_zC_z+B_xC_x)-A_xD_x(B_zC_z+B_yC_y)-A_zD_z(B_xC_x+B_yC_y)$$</p>
+<p>$$=A_yC_y(B_xD_x+B_zD_z)+A_xC_x(B_zD_z+B_yD_y)+A_zC_z(B_yD_y+B_xD_x)$$ $$-A_yD_y(B_zC_z+B_xC_x)-A_xD_x(B_zC_z+B_yC_y)-A_zD_z(B_xC_x+B_yC_y)$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -146,7 +146,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$$=A_yC_y(B_xD_x+B_zD_z+B_yD_y)+A_xC_x(B_xD_x+B_zD_z+B_yD_y)+A_zC_z(B_zD_z+B_yD_y+B_xD_x)-[A_yD_y(B_yC_y+B_zC_z+B_xC_x)+A_xD_x(B_xC_x+B_zC_z+B_yC_y)+A_zD_z(B_xC_x+B_yC_y+B_zC_z)]$$ </p>
+<p>$$=A_yC_y(B_xD_x+B_zD_z+B_yD_y)+A_xC_x(B_xD_x+B_zD_z+B_yD_y)+A_zC_z(B_zD_z+B_yD_y+B_xD_x)$$ $$-[A_yD_y(B_yC_y+B_zC_z+B_xC_x)+A_xD_x(B_xC_x+B_zC_z+B_yC_y)+A_zD_z(B_xC_x+B_yC_y+B_zC_z)]$$ </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:quote {"className":"is-style-default"} -->
@@ -158,7 +158,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$$=(A_xC_x+A_yC_y+A_zC_z)(B_xD_x+B_yD_y+B_zD_z)-(A_xD_x+A_yD_y+A_zD_z)(B_xC_x+B_yC_y+B_zC_z)$$</p>
+<p>$$=(A_xC_x+A_yC_y+A_zC_z)(B_xD_x+B_yD_y+B_zD_z)$$ $$-(A_xD_x+A_yD_y+A_zD_z)(B_xC_x+B_yC_y+B_zC_z)$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -258,7 +258,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Example: $$\epsilon_{112}=0$ and $\epsilon_{123}=1$$</p>
+<p>Example: $$\epsilon_{112}=0\text{ and }\epsilon_{123}=1$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -278,7 +278,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:quote -->
-<blockquote class="wp-block-quote"><p><strong>Levi-Civita symbol</strong> <strong>(part 1)</strong></p><cite><strong><span style="color:#313131" class="tadv-color">Definition</span></strong><span style="color:#313131" class="tadv-color"><br>$$\epsilon_{ijk}= \begin{cases} 0, &amp; \text{if i=j or j=k or i=k} \\ 1, &amp; \text{if (i,j,k) is even permutation of (1,2,3)} \\  -1, &amp; \text{if (i,j,k) is odd permutation of (1,2,3)} \end{cases}$$  <br></span><br><strong><span style="color:#313131" class="tadv-color">Properties</span></strong><br><span style="color:#313131" class="tadv-color">$$\epsilon_{ijk}=\epsilon_{kij}=\epsilon_{jki}$</span><br><span style="color:#313131" class="tadv-color">$\epsilon_{ijk}=-\epsilon_{ikj}=-\epsilon_{kji}=-\epsilon_{jik}$$</span></cite></blockquote>
+<blockquote class="wp-block-quote"><p><strong>Levi-Civita symbol</strong> <strong>(part 1)</strong></p><cite><strong><span style="color:#313131" class="tadv-color">Definition</span></strong><span style="color:#313131" class="tadv-color"><br>$$\epsilon_{ijk}= \begin{cases} 0, &amp; \text{if i=j or j=k or i=k} \\ 1, &amp; \text{if (i,j,k) is even permutation of (1,2,3)} \\  -1, &amp; \text{if (i,j,k) is odd permutation of (1,2,3)} \end{cases}$$  <br></span><br><strong><span style="color:#313131" class="tadv-color">Properties</span></strong><br><span style="color:#313131" class="tadv-color">$$\epsilon_{ijk}=\epsilon_{kij}=\epsilon_{jki}$$</span><br><span style="color:#313131" class="tadv-color">$$\epsilon_{ijk}=-\epsilon_{ikj}=-\epsilon_{kji}=-\epsilon_{jik}$$</span></cite></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
@@ -310,7 +310,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>A fair question to ask would be, "$$\text{How can I evaluate }\epsilon_{ijk}  \epsilon_{ilm}\text{?}$$". We can get the answer by thinking about the summing over the indices. You can see that the indices $i$ is already used in the both of the epsilon tensor and since recurring number would lead to 0, we only have a choice of k not equal to j and i and m not equal to l and i (i.e. if i=1, then j=2 or 3 and k takes the rest). So we can seperate the sums for the case of :</p>
+<p>A fair question to ask would be, $$\text{"How can I evaluate }\epsilon_{ijk}  \epsilon_{ilm}\text{?"}$$We can get the answer by thinking about the summing over the indices. You can see that the indices i is already used in the both of the epsilon tensor and since recurring number would lead to 0, we only have a choice of k not equal to j and i and m not equal to l and i (i.e. if i=1, then j=2 or 3 and k takes the rest). So we can seperate the sums for the case of :</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -322,7 +322,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>So what happens for case i)? If (i,j,k) is odd (or even) permutations of (1,2,3), (i,l,m) is then odd (or even) as well. Then the latter epsilon would always take the same value as the former, which means $$\epsilon_{ijk} \epsilon_{ilm} = 1\text{ (i.e. (-1)(-1)=1)}$$. For the case ii), if (i,j,k) is an odd permutation of (1,2,3), then (i,l,m) is even (and vice versa). This would mean that the will two epsilons take opposite signs, which means $$\epsilon_{ijk} \epsilon_{ilm}=-1$$. Then we can rewrite the d) in sum notation.</p>
+<p>So what happens for case i)? If (i,j,k) is odd (or even) permutations of (1,2,3), (i,l,m) is then odd (or even) as well. Then the latter epsilon would always take the same value as the former, which means: $$\epsilon_{ijk} \epsilon_{ilm} = 1\text{ (i.e. (-1)(-1)=1)}$$For the case ii), if (i,j,k) is an odd permutation of (1,2,3), then (i,l,m) is even (and vice versa). This would mean that the will two epsilons take opposite signs, which means: $$\epsilon_{ijk} \epsilon_{ilm}=-1$$Then we can rewrite the d) in sum notation.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -330,7 +330,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>With this, you can see that the product of two epsilon tensors with 5 different indices, is in reality only dependent on 3 different summing indices, where both $l$ and $m$ is turned into either $j$ or $k$ (each indices takes on one value from set ${1,2,3}$). In the spirit of condensing information (and saving ink really..), we would like to find an on-off button again just like the epsilon tensor. With this I will introduce another symbol.</p>
+<p>With this, you can see that the product of two epsilon tensors with 5 different indices, is in reality only dependent on 3 different summing indices, where both l and m is turned into either j or k (each indices takes on one value from set {1,2,3}). In the spirit of condensing information (and saving pen ink really..), we would like to find an on-off button again just like the epsilon tensor. With this I will introduce another symbol.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -338,7 +338,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>What does the symbol mean in terms of indices? That means, if there is a summing of $A_iB_j$, applying $\delta_{ij}$ means that all indices $i \neq j$ vanishes, or in other words, explicitly:</p>
+<p>What does the symbol mean in terms of indices? That means, if there is a summing of terms with index i and j, applying the tensor above means that all indices i not the same as j vanishes, or in other words, explicitly:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -366,7 +366,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:quote -->
-<blockquote class="wp-block-quote"><p><span style="color:#313131" class="tadv-color"><strong>Kronecker delta and Levi-Civita symbols (part 2)</strong></span></p><cite><span style="color:#313131" class="tadv-color"><strong>Kronecker delta:</strong></span><br><span style="color:#313131" class="tadv-color">$\delta_{ij}= \begin{cases} 1, &amp; \text{if i=j}\\ 0, &amp; \text{otherwise} \end{cases}$ </span><br><span style="color:#313131" class="tadv-color"><br></span><strong><span style="color:#313131" class="tadv-color">Levi-Civita symbols product:</span></strong><br><span style="color:#313131" class="tadv-color">$$\epsilon_{ijk} \epsilon_{ilm} =  \delta_{jl}\delta_{km}-\delta_{jm}\delta_{kl}$$ <br>$$\epsilon_{ijk} \epsilon_{lmn} = \begin{vmatrix} \delta_{il} &amp;  \delta_{im}  &amp;  \delta_{in} \\ \delta_{jl} &amp; \delta_{jm} &amp; \delta_{jn} \\ \delta_{kl} &amp; \delta_{km} &amp; \delta_{kn} \end{vmatrix} $$</span></cite></blockquote>
+<blockquote class="wp-block-quote"><p><span style="color:#313131" class="tadv-color"><strong>Kronecker delta and Levi-Civita symbols (part 2)</strong></span></p><cite><span style="color:#313131" class="tadv-color"><strong>Kronecker delta:</strong></span><br><span style="color:#313131" class="tadv-color">$$\delta_{ij}= \begin{cases} 1, &amp; \text{if i=j}\\ 0, &amp; \text{otherwise} \end{cases}$$ </span><br><span style="color:#313131" class="tadv-color"><br></span><strong><span style="color:#313131" class="tadv-color">Levi-Civita symbols product:</span></strong><br><span style="color:#313131" class="tadv-color">$$\epsilon_{ijk} \epsilon_{ilm} =  \delta_{jl}\delta_{km}-\delta_{jm}\delta_{kl}$$ <br>$$\epsilon_{ijk} \epsilon_{lmn} = \begin{vmatrix} \delta_{il} &amp;  \delta_{im}  &amp;  \delta_{in} \\ \delta_{jl} &amp; \delta_{jm} &amp; \delta_{jn} \\ \delta_{kl} &amp; \delta_{km} &amp; \delta_{kn} \end{vmatrix} $$</span></cite></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
