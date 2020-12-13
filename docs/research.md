@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-permalink: /reasearch
+permalink: /research
 ---
 
 ## Leipzig University
