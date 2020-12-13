@@ -2,6 +2,7 @@
 layout: post
 title:  "Physics: Einstein notation"
 date:   2019-11-27 18:01:27 +0100
+thumbnail: images/maxresdefault.jpg
 categories: science
 ---
 
