@@ -44,7 +44,10 @@ github_username:  metersquared
 linkedin_username: prasetyaarya
 
 
-
+# Favicon
+favicon:
+  safari: 5bbad5
+  theme: ffffff
 
 
 # Build settings
