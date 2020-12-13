@@ -1,0 +1,60 @@
+months:
+  id: ["januari", "februari", "maret", "april", "mei", "juni", "juli", "agustus", "september", "oktober", "november", "desember"]
+dateformat:
+  en: "%b %-d, %Y"
+  id: "%b %-d, %Y"
+lastupdated:
+  en: "last updated on"
+  id: "terakhir diperbarui"
+revhistory:
+  en: "See the revision history for this post"
+  id: "Lihat sejarah revisi post ini"
+cta:
+  like:
+    en: "Do you enjoy the blog?"
+    id: "Apakah kamu menyukai blog ini?"
+  post:
+    en: "Did you like that post?"
+    id: "Apakah kamu menyukai post ini?"
+  rss:
+    en: ["You can suscribe to the", "RSS feed", ""]
+    id: ["Kamu bisa subscribe ke", "RSS feed", ""]
+  twitter:
+    en: ["or follow", "on Twitter"]
+    id: ["atau follow", "di Twitter"]
+links:
+  en: "Links :"
+  id: "Tautan :"
+by:
+  en: "by"
+  id: "oleh"
+legal:
+  en: ["by", "is available under the license"]
+  id: ["oleh", "tersedia dibawah lisensi"]  
+feed:
+  en: "RSS feed"
+  id: "RSS feed"
+menu:
+  en: "Menu:"
+  id: "Menu:"
+archive:
+  en: "Welcome to the archives of this blog. Below, you will find all published posts listed in reverse chronological order."
+  id: "Selamat datang di arkiv blog. Dibawh ini kamu bisa melihat semua pos dalam urutan kronologis terbalik."
+all_posts:
+  en: ["See", "all published posts"]
+  id: ["Lihat", "semua pos terpublikasi"]
+notfound:
+  en: "I guess this page has moved somewhere else..."
+  id: "Sepertinya laman ini sudah pindah..."
+versions:
+  en: "English version:"
+  id: "Versi Bahasa Indonesia:"
+no_versions:
+  en: "The English version of this page doesn't exist yet :("
+  id: "Versi Bahasa Indonesia laman ini belum ada :("
+langs_avail:
+  en: "Languages:"
+  id: "Bahasa :"
+cv:
+  en: "Curriculum"
+  id: "CV"
