@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Science: Einstein notation"
+title:  "Physics: Einstein notation"
 date:   2019-11-27
 categories: science
 ---
@@ -74,7 +74,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$$= -\begin{vmatrix} \mathbf{e_x} &amp;  \mathbf{e_y}  &amp;  \mathbf{e_z} \\ B_x &amp; B_y &amp; B_z\\ A_x &amp; A_y &amp; A_z \end{vmatrix}=-\mathbf{B \times A} $$    $$\blacksquare$$</p>
+<p>$$= -\begin{vmatrix} \mathbf{e_x} &amp;  \mathbf{e_y}  &amp;  \mathbf{e_z} \\ B_x &amp; B_y &amp; B_z\\ A_x &amp; A_y &amp; A_z \end{vmatrix}=-\mathbf{B \times A} $$    \blacksquare$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -94,11 +94,11 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Now using the explicit notation, c) can still be solved and will be left as an exercise (You'll see a lot of this, especially in math books and lectures, the reason is trivial  $$\blacksquare$$). However, to make my case and point, lets be naive and young, and work out d) with the explicit notation.</p>
+<p>Now using the explicit notation, c) can still be solved and will be left as an exercise (You'll see a lot of this, especially in math books and lectures). However, to make my case and point, lets be naive and young, and work out d) with the explicit notation.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Let's seperate it into small pieces $\mathbf{A \times B}$ and  $\mathbf{C \times D}$, then work out their dot products.</p>
+<p>Let's seperate it into small pieces $$\mathbf{A \times B}\text{ and }\mathbf{C \times D}$$, Then work out their dot products.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -142,12 +142,16 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Now we would like to add some zeros (i.e for the first term add $0=A_yC_y(B_yD_y)-A_yD_y(B_yC_y)$, which the reason will be clear later.</p>
+<p>Now we would like to add some zeros , which the reason will be clear later.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>$$=A_yC_y(B_xD_x+B_zD_z+B_yD_y)+A_xC_x(B_xD_x+B_zD_z+B_yD_y)+A_zC_z(B_zD_z+B_yD_y+B_xD_x)-[A_yD_y(B_yC_y+B_zC_z+B_xC_x)+A_xD_x(B_xC_x+B_zC_z+B_yC_y)+A_zD_z(B_xC_x+B_yC_y+B_zC_z)]$$ </p>
 <!-- /wp:paragraph -->
+
+<!-- wp:quote {"className":"is-style-default"} -->
+<blockquote class="wp-block-quote is-style-default"><p><strong>Adding Zeros</strong></p><cite><span style="color:#313131" class="tadv-color">Adding zeros mean in essence adding a term that cancels each other, for example: $$0=A_yC_y(B_yD_y)-A_yD_y(B_yC_y)$$</span></cite></blockquote>
+<!-- /wp:quote -->
 
 <!-- wp:paragraph -->
 <p>The above is nothing but:</p>
@@ -158,7 +162,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$$=\mathbf{(A \cdot C) (B \cdot D)-(B \cdot C)(A \cdot D)}$$   $$\blacksquare$$</p>
+<p>$$=\mathbf{(A \cdot C) (B \cdot D)-(B \cdot C)(A \cdot D)} \blacksquare$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -190,7 +194,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>So now, how can we make it simpler? Let's start with the dot product. It should be pretty clear that there is a discernible pattern in a), so we can turn it into a <a href="https://en.wikipedia.org/wiki/Summation">summation</a>. In here, I'd also like nummerize each component of the vector,i.e: $\mathbf{(e_x,e_y,e_z)\rightarrow(e_1,e_2,e_3)}$</p>
+<p>So now, how can we make it simpler? Let's start with the dot product. It should be pretty clear that there is a discernible pattern in a), so we can turn it into a <a href="https://en.wikipedia.org/wiki/Summation">summation</a>. In here, I'd also like nummerize each component of the vector,i.e: $$\mathbf{(e_x,e_y,e_z)\rightarrow(e_1,e_2,e_3)}$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -226,15 +230,15 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You could see that each term have the form: $$\mathbf{e_i} A_jB_k$$ The only difference is, for some sequence (i,j,k) associated to the term with sequences (1,2,3),  (2,3,1), and (3,1,2) carry positive signs, while sequences (1,3,2), (2,1,3), and (3,2,1) carry negative signs, i.e.:  $$\mathbf{e_1}A_2B_3$$ and $$-\mathbf{e_1}A_3B_2$$ respectively. </p>
+<p>You could see that each term have the form: $$\mathbf{e_i} A_jB_k$$ The only difference is, for some sequence (i,j,k) associated to the term with sequences (1,2,3),  (2,3,1), and (3,1,2) carry positive signs, while sequences (1,3,2), (2,1,3), and (3,2,1) carry negative signs, i.e.:  $$\mathbf{e_1}A_2B_3\text{ and }-\mathbf{e_1}A_3B_2\text{ respectively.}$$ </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You could now see, that the sequences are just reorderings of the number 1, 2, and 3. These are called <strong>permutations </strong>of the collection of numbers {1,2,3}. If we consider an initial sequence of  $(1,2,3) $, the first three sequences are what we call <strong>even permutations</strong> because we only need to switch positions even numbers amount of time to get another sequence, while the latter is what we call <strong>odd permutations</strong>, for which the reason is already clear.</p>
+<p>You could now see, that the sequences are just reorderings of the number 1, 2, and 3. These are called <strong>permutations </strong>of the collection of numbers {1,2,3}. If we consider an initial sequence of  (1,2,3), the first three sequences are what we call <strong>even permutations</strong> because we only need to switch positions even numbers amount of time to get another sequence, while the latter is what we call <strong>odd permutations</strong>, for which the reason is already clear.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:quote -->
-<blockquote class="wp-block-quote"><p><strong>Example of permutations</strong></p><cite><span style="color:#313131" class="tadv-color">$(1,2,3) \rightarrow_1 (2,1,3) \rightarrow_2 (2,3,1)$, since you need to switch the order twice, then it is an even permutation.<br>$(1,2,3) \rightarrow_1 (1,3,2)$, since you only need to do it once, then it is an odd permutation.</span> </cite></blockquote>
+<blockquote class="wp-block-quote"><p><strong>Example of permutations</strong></p><cite><span style="color:#313131" class="tadv-color">$$(1,2,3) \rightarrow_1 (2,1,3) \rightarrow_2 (2,3,1)$$, since you need to switch the order twice, then it is an even permutation.<br>$$(1,2,3) \rightarrow_1 (1,3,2)$$, since you only need to do it once, then it is an odd permutation.</span> </cite></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
@@ -242,19 +246,19 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p> $\sum_{i,j,k=1}^{3} \mathbf{e_i} A_jB_k$</p>
+<p> $$\sum_{i,j,k=1}^{3} \mathbf{e_i} A_jB_k$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>However, we already know from before, that for sequences of recurring numbers like $(i,j,k)=(1,1,2)$ such terms do not exist. So we need some device that acts as an on-off button when such a sequence occurs. I'm going to start by introducing a symbol.</p>
+<p>However, we already know from before, that for sequences of recurring numbers like (i,j,k)=(1,1,2) such terms do not exist. So we need some device that acts as an on-off button when such a sequence occurs. I'm going to start by introducing a symbol.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$\epsilon_{ijk}= \begin{cases} 0, &amp; \text{if i=j or j=k or i=k} \\ 1, &amp; \text{otherwise} \end{cases}$</p>
+<p>$$\epsilon_{ijk}= \begin{cases} 0, &amp; \text{if i=j or j=k or i=k} \\ 1, &amp; \text{otherwise} \end{cases}$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>(i.e. $\epsilon_{112}=0$ and $\epsilon_{123}=1$)</p>
+<p>Example: $$\epsilon_{112}=0$ and $\epsilon_{123}=1$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -266,7 +270,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$\epsilon_{ijk}= \begin{cases} 0, &amp; \text{if i=j or j=k or i=k} \\ 1, &amp; \text{if (i,j,k) is even permutation of (1,2,3)} \\  -1, &amp; \text{if (i,j,k) is odd permutation of (1,2,3)} \end{cases}$ </p>
+<p>$$\epsilon_{ijk}= \begin{cases} 0, &amp; \text{if i=j or j=k or i=k} \\ 1, &amp; \text{if (i,j,k) is even permutation of (1,2,3)} \\  -1, &amp; \text{if (i,j,k) is odd permutation of (1,2,3)} \end{cases}$$ </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -274,7 +278,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:quote -->
-<blockquote class="wp-block-quote"><p><strong>Levi-Civita symbol</strong> <strong>(part 1)</strong></p><cite><strong><span style="color:#313131" class="tadv-color">Definition</span></strong><span style="color:#313131" class="tadv-color"><br>$\epsilon_{ijk}= \begin{cases} 0, &amp; \text{if i=j or j=k or i=k} \\ 1, &amp; \text{if (i,j,k) is even permutation of (1,2,3)} \\  -1, &amp; \text{if (i,j,k) is odd permutation of (1,2,3)} \end{cases}$  <br></span><br><strong><span style="color:#313131" class="tadv-color">Properties</span></strong><br><span style="color:#313131" class="tadv-color">$\epsilon_{ijk}=\epsilon_{kij}=\epsilon_{jki}$</span><br><span style="color:#313131" class="tadv-color">$\epsilon_{ijk}=-\epsilon_{ikj}=-\epsilon_{kji}=-\epsilon_{jik}$</span></cite></blockquote>
+<blockquote class="wp-block-quote"><p><strong>Levi-Civita symbol</strong> <strong>(part 1)</strong></p><cite><strong><span style="color:#313131" class="tadv-color">Definition</span></strong><span style="color:#313131" class="tadv-color"><br>$$\epsilon_{ijk}= \begin{cases} 0, &amp; \text{if i=j or j=k or i=k} \\ 1, &amp; \text{if (i,j,k) is even permutation of (1,2,3)} \\  -1, &amp; \text{if (i,j,k) is odd permutation of (1,2,3)} \end{cases}$$  <br></span><br><strong><span style="color:#313131" class="tadv-color">Properties</span></strong><br><span style="color:#313131" class="tadv-color">$$\epsilon_{ijk}=\epsilon_{kij}=\epsilon_{jki}$</span><br><span style="color:#313131" class="tadv-color">$\epsilon_{ijk}=-\epsilon_{ikj}=-\epsilon_{kji}=-\epsilon_{jik}$$</span></cite></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
@@ -282,7 +286,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$\epsilon_{ijk} \mathbf{e_i} A_jB_k$ </p>
+<p>$$\epsilon_{ijk} \mathbf{e_i} A_jB_k$$ </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -290,11 +294,11 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$a) \mathbf{A \cdot B} = A_iB_i= B_iA_i= \mathbf{B \cdot A}  \blacksquare$</p>
+<p>$$a) \mathbf{A \cdot B} = A_iB_i= B_iA_i= \mathbf{B \cdot A}  \blacksquare$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$b) \mathbf{A \times B}=  \epsilon_{ijk} \mathbf{e_i} A_jB_k =  -\epsilon_{ikj} \mathbf{e_i} B_kA_j  = - \mathbf{B \times A}  \blacksquare$</p>
+<p>$$b) \mathbf{A \times B}=  \epsilon_{ijk} \mathbf{e_i} A_jB_k =  -\epsilon_{ikj} \mathbf{e_i} B_kA_j  = - \mathbf{B \times A}  \blacksquare$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -302,27 +306,27 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$d) \mathbf{(A\times B) \cdot (C \times D)}=  \epsilon_{ijk} A_jB_k \epsilon_{ilm}C_lD_m = \epsilon_{ijk}  \epsilon_{ilm} A_jB_k C_lD_m$</p>
+<p>$$d) \mathbf{(A\times B) \cdot (C \times D)}=  \epsilon_{ijk} A_jB_k \epsilon_{ilm}C_lD_m = \epsilon_{ijk}  \epsilon_{ilm} A_jB_k C_lD_m$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>A fair question to ask would be, "How can I evaluate $\epsilon_{ijk}  \epsilon_{ilm}$?". We can get the answer by thinking about the summing over the indices. You can see that the indices $i$ is already used in the both of the epsilon tensor and since recurring number would lead to 0, we only have a choice of $k \neq j \neq i$ and $m \neq l \neq i$ (i.e. if $i=1$, then $j=2$ or $3$ and $k$ takes the rest). So we can seperate the sums for the case of :</p>
+<p>A fair question to ask would be, "$$\text{How can I evaluate }\epsilon_{ijk}  \epsilon_{ilm}\text{?}$$". We can get the answer by thinking about the summing over the indices. You can see that the indices $i$ is already used in the both of the epsilon tensor and since recurring number would lead to 0, we only have a choice of k not equal to j and i and m not equal to l and i (i.e. if i=1, then j=2 or 3 and k takes the rest). So we can seperate the sums for the case of :</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>i) $j=l \implies k=m$</p>
+<p>$$\text{i) }j=l \implies k=m$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ii) $j=m \implies k=l$</p>
+<p>$$\text{ii) }j=m \implies k=l$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>So what happens for case i)? If $(i,j,k)$ is odd (or even) permutations of $(1,2,3)$, $(i,l,m)$ is then odd (or even) as well. Then $\epsilon_{ilm}$ would always take the same value as $\epsilon_{ijk}$, which means $\epsilon_{ijk} \epsilon_{ilm} = 1$ (i.e. $(-1)(-1)=1$). For the case ii), if $(i,j,k)$ is an odd permutation of $1,2,3)$, then $(i,l,m)$ is even (and vice versa). This would mean that $\epsilon_{ijk}$ will take an opposite sign to that of $\epsilon_{ilm}$, which means $\epsilon_{ijk} \epsilon_{ilm}=-1$. Then we can rewrite the d) in sum notation.</p>
+<p>So what happens for case i)? If (i,j,k) is odd (or even) permutations of (1,2,3), (i,l,m) is then odd (or even) as well. Then the latter epsilon would always take the same value as the former, which means $$\epsilon_{ijk} \epsilon_{ilm} = 1\text{ (i.e. (-1)(-1)=1)}$$. For the case ii), if (i,j,k) is an odd permutation of (1,2,3), then (i,l,m) is even (and vice versa). This would mean that the will two epsilons take opposite signs, which means $$\epsilon_{ijk} \epsilon_{ilm}=-1$$. Then we can rewrite the d) in sum notation.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$\sum\limits_{i,j,k,l,m=1}^3 \epsilon_{ijk} \epsilon_{ilm} A_j B_k C_l D_m = \sum_{i=1 \text{, } j \neq k \neq i}^3 (A_jB_kC_jD_k-A_jB_kC_kD_j)$</p>
+<p>$$\sum\limits_{i,j,k,l,m=1}^3 \epsilon_{ijk} \epsilon_{ilm} A_j B_k C_l D_m = \sum_{i=1 \text{, } j \neq k \neq i}^3 (A_jB_kC_jD_k-A_jB_kC_kD_j)$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -330,7 +334,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$\delta_{ij}= \begin{cases} 1, &amp; \text{if i=j}\\ 0, &amp; \text{otherwise} \end{cases}$</p>
+<p>$$\delta_{ij}= \begin{cases} 1, &amp; \text{if i=j}\\ 0, &amp; \text{otherwise} \end{cases}$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -338,7 +342,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$\sum_{i,j=1}^3\delta_{ij} A_iB_j= \sum_i^3A_iB_i$</p>
+<p>$$\sum_{i,j=1}^3\delta_{ij} A_iB_j= \sum_i^3A_iB_i$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -346,15 +350,15 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$\sum\limits_{i,j,k,l,m=1}^3 \epsilon_{ijk} \epsilon_{ilm} A_j B_k C_l D_m$</p>
+<p>$$\sum\limits_{i,j,k,l,m=1}^3 \epsilon_{ijk} \epsilon_{ilm} A_j B_k C_l D_m$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$=\sum\limits_{i=1, i \neq j \neq k, i \neq l \neq m}^3 (\delta_{jl}\delta_{km}-\delta_{jm}\delta_{kl}) A_j B_k C_l D_m$</p>
+<p>$$=\sum\limits_{i=1, i \neq j \neq k, i \neq l \neq m}^3 (\delta_{jl}\delta_{km}-\delta_{jm}\delta_{kl}) A_j B_k C_l D_m$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$=\sum_{i=1 \text{, } j \neq k \neq i}^3 (A_jB_kC_jD_k-A_jB_kC_kD_j)$</p>
+<p>$$=\sum_{i=1 \text{, } j \neq k \neq i}^3 (A_jB_kC_jD_k-A_jB_kC_kD_j)$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -362,7 +366,7 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:quote -->
-<blockquote class="wp-block-quote"><p><span style="color:#313131" class="tadv-color"><strong>Kronecker delta and Levi-Civita symbols (part 2)</strong></span></p><cite><span style="color:#313131" class="tadv-color"><strong>Kronecker delta:</strong></span><br><span style="color:#313131" class="tadv-color">$\delta_{ij}= \begin{cases} 1, &amp; \text{if i=j}\\ 0, &amp; \text{otherwise} \end{cases}$ </span><br><span style="color:#313131" class="tadv-color"><br></span><strong><span style="color:#313131" class="tadv-color">Levi-Civita symbols product:</span></strong><br><span style="color:#313131" class="tadv-color">$\epsilon_{ijk} \epsilon_{ilm} =  \delta_{jl}\delta_{km}-\delta_{jm}\delta_{kl}$ <br>$\epsilon_{ijk} \epsilon_{lmn} = \begin{vmatrix} \delta_{il} &amp;  \delta_{im}  &amp;  \delta_{in} \\ \delta_{jl} &amp; \delta_{jm} &amp; \delta_{jn} \\ \delta_{kl} &amp; \delta_{km} &amp; \delta_{kn} \end{vmatrix} $</span></cite></blockquote>
+<blockquote class="wp-block-quote"><p><span style="color:#313131" class="tadv-color"><strong>Kronecker delta and Levi-Civita symbols (part 2)</strong></span></p><cite><span style="color:#313131" class="tadv-color"><strong>Kronecker delta:</strong></span><br><span style="color:#313131" class="tadv-color">$\delta_{ij}= \begin{cases} 1, &amp; \text{if i=j}\\ 0, &amp; \text{otherwise} \end{cases}$ </span><br><span style="color:#313131" class="tadv-color"><br></span><strong><span style="color:#313131" class="tadv-color">Levi-Civita symbols product:</span></strong><br><span style="color:#313131" class="tadv-color">$$\epsilon_{ijk} \epsilon_{ilm} =  \delta_{jl}\delta_{km}-\delta_{jm}\delta_{kl}$$ <br>$$\epsilon_{ijk} \epsilon_{lmn} = \begin{vmatrix} \delta_{il} &amp;  \delta_{im}  &amp;  \delta_{in} \\ \delta_{jl} &amp; \delta_{jm} &amp; \delta_{jn} \\ \delta_{kl} &amp; \delta_{km} &amp; \delta_{kn} \end{vmatrix} $$</span></cite></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
@@ -370,15 +374,15 @@ categories: science
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$d) \mathbf{(A\times B) \cdot (C \times D)}=  \epsilon_{ijk} A_jB_k \epsilon_{ilm}C_lD_m = \epsilon_{ijk}  \epsilon_{ilm} A_jB_k C_lD_m$</p>
+<p>$$d) \mathbf{(A\times B) \cdot (C \times D)}=  \epsilon_{ijk} A_jB_k \epsilon_{ilm}C_lD_m = \epsilon_{ijk}  \epsilon_{ilm} A_jB_k C_lD_m$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$=(\delta_{jl}\delta_{km}-\delta_{jm}\delta_{kl})A_jB_kC_lD_m=A_jB_kC_jD_k-A_jB_kC_kD_j$ </p>
+<p>$$=(\delta_{jl}\delta_{km}-\delta_{jm}\delta_{kl})A_jB_kC_lD_m=A_jB_kC_jD_k-A_jB_kC_kD_j$$ </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$=\mathbf{(A \cdot C) (B \cdot D)-(B \cdot C)(A \cdot D)}$   $\blacksquare$</p>
+<p>$$=\mathbf{(A \cdot C) (B \cdot D)-(B \cdot C)(A \cdot D)} \blacksquare$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
