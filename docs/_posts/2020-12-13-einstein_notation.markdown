@@ -5,7 +5,7 @@ date:   2019-11-27
 categories: science
 ---
 
-Today, I want to start talking about something very simple, yet very confusing for freshmen out there. The <stong>Einstein/index</strong> <strong>notations</strong>. I can assure you though, that you would not need to be an Einstein to understand this notation. Nevertheless, understanding the purpose of the notation is very much worth it, as such notation will be very powerful in electromagnetism, classical and continuum mechanics. </p>
+Today, I want to start talking about something very simple, yet very confusing for freshmen out there. The <strong>Einstein</strong> <strong>notations</strong>. I can assure you though, that you would not need to be an Einstein to understand this notation. Nevertheless, understanding the purpose of the notation is very much worth it, as such notation will be very powerful in electromagnetism, classical and continuum mechanics. </p>
 
 <!-- wp:heading {"level":3} -->
 <h3>Explicit notation</h3>
@@ -36,7 +36,7 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$\mathbf{A \cdot B} = A_x B_x+A_y B_y+A_z B_z$</p>
+<p>$$\mathbf{A \cdot B} = A_x B_x+A_y B_y+A_z B_z$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
