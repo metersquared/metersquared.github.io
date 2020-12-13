@@ -5,7 +5,7 @@ date:   2019-11-27
 categories: science
 ---
 
-Today, I want to start talking about something very simple, yet very confusing for freshmen out there. The <strong>Einstein</strong> <strong>notations</strong>. I can assure you though, that you would not need to be an Einstein to understand this notation. Nevertheless, understanding the purpose of the notation is very much worth it, as such notation will be very powerful in electromagnetism, classical and continuum mechanics. </p>
+<p>Today, I want to start talking about something very simple, yet very confusing for freshmen out there. The <strong>Einstein</strong> <strong>notations</strong>. I can assure you though, that you would not need to be an Einstein to understand this notation. Nevertheless, understanding the purpose of the notation is very much worth it, as such notation will be very powerful in electromagnetism, classical and continuum mechanics. </p>
 
 <!-- wp:heading {"level":3} -->
 <h3>Explicit notation</h3>
@@ -20,11 +20,11 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$a) \mathbf{A \cdot B} = \mathbf{B \cdot A}$</p>
+<p>$$a) \mathbf{A \cdot B} = \mathbf{B \cdot A}$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$b) \mathbf{A \times B}= - \mathbf{B \times A}$</p>
+<p>$$b) \mathbf{A \times B}= - \mathbf{B \times A}$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -40,7 +40,7 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Using the commutativity of multiplication (i.e. for some number $a,b$ $ab=ba$), then:</p>
+<p>Using the commutativity of multiplication (i.e. for some number a,b ab=ba), then:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:quote -->
@@ -48,7 +48,7 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
-<p> $B_x A_x+B_y A_y+B_z A_z=  \mathbf{B \cdot A}$     $\blacksquare $ </p>
+<p> $$B_x A_x+B_y A_y+B_z A_z=  \mathbf{B \cdot A}$     $\blacksquare $$ </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -56,11 +56,11 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$\mathbf{A \times B} = \begin{vmatrix} \mathbf{e_x} &amp;  \mathbf{e_y}  &amp;  \mathbf{e_z} \\ A_x &amp; A_y &amp; A_z\\ B_x &amp; B_y &amp; B_z \end{vmatrix}$</p>
+<p>$$\mathbf{A \times B} = \begin{vmatrix} \mathbf{e_x} &amp;  \mathbf{e_y}  &amp;  \mathbf{e_z} \\ A_x &amp; A_y &amp; A_z\\ B_x &amp; B_y &amp; B_z \end{vmatrix}$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$=(A_yB_z-A_zB_y)\mathbf{e_x}+ (A_zB_x-A_xB_z)\mathbf{e_y} + (A_xB_y-A_yB_x)\mathbf{e_z} $</p>
+<p>$$=(A_yB_z-A_zB_y)\mathbf{e_x}+ (A_zB_x-A_xB_z)\mathbf{e_y} + (A_xB_y-A_yB_x)\mathbf{e_z} $$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -68,11 +68,11 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$=-[ (B_yA_z-B_zA_y)\mathbf{e_x}+ (B_zA_x-B_xA_z)\mathbf{e_y} + (B_xA_y-B_yA_x)\mathbf{e_z}]$</p>
+<p>$$=-[ (B_yA_z-B_zA_y)\mathbf{e_x}+ (B_zA_x-B_xA_z)\mathbf{e_y} + (B_xA_y-B_yA_x)\mathbf{e_z}]$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$= -\begin{vmatrix} \mathbf{e_x} &amp;  \mathbf{e_y}  &amp;  \mathbf{e_z} \\ B_x &amp; B_y &amp; B_z\\ A_x &amp; A_y &amp; A_z \end{vmatrix}=-\mathbf{B \times A} $    $\blacksquare$</p>
+<p>$$= -\begin{vmatrix} \mathbf{e_x} &amp;  \mathbf{e_y}  &amp;  \mathbf{e_z} \\ B_x &amp; B_y &amp; B_z\\ A_x &amp; A_y &amp; A_z \end{vmatrix}=-\mathbf{B \times A} $$    $$\blacksquare$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -80,19 +80,19 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$c) \mathbf{A \cdot (B \times C)}= \mathbf{C \cdot (A \times B)}$</p>
+<p>$$c) \mathbf{A \cdot (B \times C)}= \mathbf{C \cdot (A \times B)}$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$d) \mathbf{(A\times B) \cdot (C \times D)}= \mathbf{(A \cdot C) (B \cdot D)-(B \cdot C)(A \cdot D)}$ </p>
+<p>$$d) \mathbf{(A\times B) \cdot (C \times D)}= \mathbf{(A \cdot C) (B \cdot D)-(B \cdot C)(A \cdot D)}$$ </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$e) \mathbf{A \times (B \times C)}= \mathbf{B (A \cdot C)-C(A \cdot B)}$  </p>
+<p>$$e) \mathbf{A \times (B \times C)}= \mathbf{B (A \cdot C)-C(A \cdot B)}$$  </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Now using the explicit notation, c) can still be solved and will be left as an exercise (You'll see a lot of this, especially in math books and lectures, the reason is trivial  $\blacksquare$). However, to make my case and point, lets be naive and young, and work out d) with the explicit notation.</p>
+<p>Now using the explicit notation, c) can still be solved and will be left as an exercise (You'll see a lot of this, especially in math books and lectures, the reason is trivial  $$\blacksquare$$). However, to make my case and point, lets be naive and young, and work out d) with the explicit notation.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -100,11 +100,11 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$\mathbf{A \times B}= (A_yB_z-A_zB_y)\mathbf{e_x}+ (A_zB_x-A_xB_z)\mathbf{e_y} + (A_xB_y-A_yB_x)\mathbf{e_z}$ </p>
+<p>$$\mathbf{A \times B}= (A_yB_z-A_zB_y)\mathbf{e_x}+ (A_zB_x-A_xB_z)\mathbf{e_y} + (A_xB_y-A_yB_x)\mathbf{e_z}$$ </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$\mathbf{C \times D}= (C_yD_z-C_zD_y)\mathbf{e_x}+ (C_zD_x-C_xD_z)\mathbf{e_y} + (C_xD_y-C_yD_x)\mathbf{e_z}$  </p>
+<p>$$\mathbf{C \times D}= (C_yD_z-C_zD_y)\mathbf{e_x}+ (C_zD_x-C_xD_z)\mathbf{e_y} + (C_xD_y-C_yD_x)\mathbf{e_z}$$  </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -112,7 +112,7 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$(A_yB_z-A_zB_y) (C_yD_z-C_zD_y) + (A_zB_x-A_xB_z) (C_zD_x-C_xD_z)  + (A_xB_y-A_yB_x) (C_xD_y-C_yD_x)$ </p>
+<p>$$(A_yB_z-A_zB_y) (C_yD_z-C_zD_y) + (A_zB_x-A_xB_z) (C_zD_x-C_xD_z)  + (A_xB_y-A_yB_x) (C_xD_y-C_yD_x)$$ </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -120,7 +120,7 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p> $(A_yB_z-A_zB_y) (C_yD_z-C_zD_y)=A_yC_yB_zD_z+A_zC_zB_yD_y-A_yD_yB_zC_z-A_zD_zB_yC_y$ </p>
+<p> $$(A_yB_z-A_zB_y) (C_yD_z-C_zD_y)=A_yC_yB_zD_z+A_zC_zB_yD_y-A_yD_yB_zC_z-A_zD_zB_yC_y$$ </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -128,7 +128,7 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$= A_yC_yB_zD_z+A_zC_zB_yD_y-A_yD_yB_zC_z-A_zD_zB_yC_y+ A_zC_zB_xD_x+A_xC_xB_zD_z-A_zD_zB_xC_x-A_xD_xB_zC_z+ A_xC_xB_yD_y+A_yC_yB_xD_x-A_xD_xB_yC_y-A_yD_yB_xC_x $   </p>
+<p>$$= A_yC_yB_zD_z+A_zC_zB_yD_y-A_yD_yB_zC_z-A_zD_zB_yC_y+ A_zC_zB_xD_x+A_xC_xB_zD_z-A_zD_zB_xC_x-A_xD_xB_zC_z+ A_xC_xB_yD_y+A_yC_yB_xD_x-A_xD_xB_yC_y-A_yD_yB_xC_x $$   </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -136,7 +136,7 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$=A_yC_y(B_xD_x+B_zD_z)+A_xC_x(B_zD_z+B_yD_y)+A_zC_z(B_yD_y+B_xD_x)-A_yD_y(B_zC_z+B_xC_x)-A_xD_x(B_zC_z+B_yC_y)-A_zD_z(B_xC_x+B_yC_y)$</p>
+<p>$$=A_yC_y(B_xD_x+B_zD_z)+A_xC_x(B_zD_z+B_yD_y)+A_zC_z(B_yD_y+B_xD_x)-A_yD_y(B_zC_z+B_xC_x)-A_xD_x(B_zC_z+B_yC_y)-A_zD_z(B_xC_x+B_yC_y)$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -144,7 +144,7 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$=A_yC_y(B_xD_x+B_zD_z+B_yD_y)+A_xC_x(B_xD_x+B_zD_z+B_yD_y)+A_zC_z(B_zD_z+B_yD_y+B_xD_x)-[A_yD_y(B_yC_y+B_zC_z+B_xC_x)+A_xD_x(B_xC_x+B_zC_z+B_yC_y)+A_zD_z(B_xC_x+B_yC_y+B_zC_z)]$ </p>
+<p>$$=A_yC_y(B_xD_x+B_zD_z+B_yD_y)+A_xC_x(B_xD_x+B_zD_z+B_yD_y)+A_zC_z(B_zD_z+B_yD_y+B_xD_x)-[A_yD_y(B_yC_y+B_zC_z+B_xC_x)+A_xD_x(B_xC_x+B_zC_z+B_yC_y)+A_zD_z(B_xC_x+B_yC_y+B_zC_z)]$$ </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -152,11 +152,11 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$=(A_xC_x+A_yC_y+A_zC_z)(B_xD_x+B_yD_y+B_zD_z)-(A_xD_x+A_yD_y+A_zD_z)(B_xC_x+B_yC_y+B_zC_z)$</p>
+<p>$$=(A_xC_x+A_yC_y+A_zC_z)(B_xD_x+B_yD_y+B_zD_z)-(A_xD_x+A_yD_y+A_zD_z)(B_xC_x+B_yC_y+B_zC_z)$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$=\mathbf{(A \cdot C) (B \cdot D)-(B \cdot C)(A \cdot D)}$   $\blacksquare$</p>
+<p>$$=\mathbf{(A \cdot C) (B \cdot D)-(B \cdot C)(A \cdot D)}$$   $$\blacksquare$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -180,19 +180,19 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$a) \mathbf{A \cdot B}=A_x B_x+A_y B_y+A_z B_z$</p>
+<p>$$a) \mathbf{A \cdot B}=A_x B_x+A_y B_y+A_z B_z$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$b) \mathbf{A \times B}=(A_yB_z-A_zB_y)\mathbf{e_x}+ (A_zB_x-A_xB_z)\mathbf{e_y} + (A_xB_y-A_yB_x)\mathbf{e_z}$</p>
+<p>$$b) \mathbf{A \times B}=(A_yB_z-A_zB_y)\mathbf{e_x}+ (A_zB_x-A_xB_z)\mathbf{e_y} + (A_xB_y-A_yB_x)\mathbf{e_z}$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>So now, how can we make it simpler? Let's start with the dot product. It should be pretty clear that there is a discernible pattern in a), so we can turn it into a <a href="https://en.wikipedia.org/wiki/Summation">summation</a>. In here, I'd also like nummerize each component of the vector (i.e $\mathbf{(e_x,e_y,e_z)\rightarrow(e_1,e_2,e_3)}$).</p>
+<p>So now, how can we make it simpler? Let's start with the dot product. It should be pretty clear that there is a discernible pattern in a), so we can turn it into a <a href="https://en.wikipedia.org/wiki/Summation">summation</a>. In here, I'd also like nummerize each component of the vector,i.e: $\mathbf{(e_x,e_y,e_z)\rightarrow(e_1,e_2,e_3)}$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p> $\mathbf{A \cdot B}= \sum_{i=1}^{3} A_iB_i $</p>
+<p> $$\mathbf{A \cdot B}= \sum_{i=1}^{3} A_iB_i $$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -200,7 +200,7 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$\sum_{i=1}^{3} A_iB_i = A_iB_i$</p>
+<p>$$\sum_{i=1}^{3} A_iB_i = A_iB_i$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -212,19 +212,19 @@ Today, I want to start talking about something very simple, yet very confusing f
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$x:\mathbf{e_1}(A_2B_3-A_3B_2)$</p>
+<p>$$x:\mathbf{e_1}(A_2B_3-A_3B_2)$$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$y:\mathbf{e_2}(A_3B_1-A_3B_1)$ </p>
+<p>$$y:\mathbf{e_2}(A_3B_1-A_3B_1)$$ </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>$z:\mathbf{e_3}(A_1B_2-A_2B_1)$ </p>
+<p>$$z:\mathbf{e_3}(A_1B_2-A_2B_1)$$ </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You could see that each term have the form $\mathbf{e_i} A_jB_k$. The only difference is, for some sequence $(i,j,k)$ associated to the term with sequences $(1,2,3)$,  $(2,3,1)$, and $(3,1,2)$ carry positive signs, while sequences $(1,3,2)$, $(2,1,3)$, and $(3,2,1)$ carry negative signs (i.e  $\mathbf{e_1}A_2B_3$ and $-\mathbf{e_1}A_3B_2$ respectively). </p>
+<p>You could see that each term have the form: $$\mathbf{e_i} A_jB_k$$ The only difference is, for some sequence (i,j,k) associated to the term with sequences (1,2,3),  (2,3,1), and (3,1,2) carry positive signs, while sequences (1,3,2), (2,1,3), and (3,2,1) carry negative signs, i.e.:  $$\mathbf{e_1}A_2B_3$$ and $$-\mathbf{e_1}A_3B_2$$ respectively. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
