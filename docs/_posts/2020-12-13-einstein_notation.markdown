@@ -3,7 +3,6 @@ layout: post
 title:  "Physics: Einstein notation"
 date:   2019-11-27 18:01:27 +0100
 thumbnail: images/einstein_notation.jpg
-categories: science
 summary: >
   Despite its intimidating look at first glance, this notation can be very powerful in vector calculus. This article is for all the freshmen out there...
 ---
