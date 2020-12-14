@@ -4,7 +4,7 @@ title:  "Physics: Einstein notation"
 date:   2019-11-27 18:01:27 +0100
 thumbnail: images/einstein_notation.jpg
 summary: >
-  Despite its intimidating look at first glance, this notation can be very powerful in vector calculus. This article is for all the freshmen out there...
+  At first glance, the Einstein notation may look intimidating, but this notation can be very powerful in vector calculus. This article is made for all the physics freshmen out there...
 ---
 
 <p>Today, I want to start talking about something very simple, yet very confusing for freshmen out there. The <strong>Einstein</strong> <strong>notations</strong>. I can assure you though, that you would not need to be an Einstein to understand this notation. Nevertheless, understanding the purpose of the notation is very much worth it, as such notation will be very powerful in electromagnetism, classical and continuum mechanics. </p>
