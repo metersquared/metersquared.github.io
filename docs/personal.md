@@ -6,8 +6,6 @@ permalink: /personal
 
 Outside my studies, I try to become an active part in organizations and university life. I am also a badminton fanatic, my playing schedule is <strike>non-negotiable</strike> (Unfortunately, this is not the case during the pandemic).
 
-If I'm not busy with my studies and organization duties, I like to improve on my programming skills. 
-
 ## Organization
 
 ### Member, Education Division of PPI Leipzig (Indonesian Student Union) (12.2018-12.2019)
@@ -24,6 +22,9 @@ I am also currently assigned as the coordinator in Leipzig, to distribute assist
 ## Badminton
 I am an avid badminton fan. I follow the tournaments, I play the game, you name it. If you also happen to play badminton, let me know! 
 
+## Photos of Me
 
-## Programming
-My interest in programming started during a C# course I took back during my time in Finland. Nowadays, the list of programming languages and environments that I'm familiar with are growing, slowly but surely. Thanks in part to my physics studies.
+![Tutoring for the Saxony Preparatory College Admission Test](/assets/images/personal/tutor.jpg)
+
+![Pesta Rakyat 2019](/assets/images/personal/pestarakyat.jpg)
+
