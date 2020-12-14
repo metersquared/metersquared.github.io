@@ -25,13 +25,11 @@ I am an avid badminton fan. I follow the tournaments, I play the game, you name 
 ## Photos of Me
 <center>
 ![Tutoring for the Saxony Preparatory College Admission Test](/assets/images/personal/tutor.jpg)
-
 Tutoring for the Preparatory College Admission Test in Leipzig
 </center>
 
 <center>
 ![Pesta Rakyat 2019](/assets/images/personal/pestarakyat.jpg)
-
 Pesta Rakyat 2019 in Leipzig
 </center>
 
