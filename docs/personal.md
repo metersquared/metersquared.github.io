@@ -23,13 +23,11 @@ I am also currently assigned as the coordinator in Leipzig, to distribute assist
 I am an avid badminton fan. I follow the tournaments, I play the game, you name it. If you also happen to play badminton, let me know! 
 
 ## Photos of Me
-<center>
+
 ![Tutoring for the Saxony Preparatory College Admission Test](/assets/images/personal/tutor.jpg)
 Tutoring for the Preparatory College Admission Test in Leipzig
-</center>
 
-<center>
 ![Pesta Rakyat 2019](/assets/images/personal/pestarakyat.jpg)
 Pesta Rakyat 2019 in Leipzig
-</center>
+
 
