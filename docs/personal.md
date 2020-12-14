@@ -24,7 +24,7 @@ I am an avid badminton fan. I follow the tournaments, I play the game, you name 
 
 ## Photos of Me
 
-![Tutoring for the Saxony Preparatory College Admission Test](/docs/assets/images/personal/tutor.jpg)
+![Tutoring for the Saxony Preparatory College Admission Test](/docs/assets/images/personal/tutor.JPG)
 Tutoring for the Preparatory College Admission Test in Leipzig
 
 ![Pesta Rakyat 2019](/docs/assets/images/personal/pestarakyat.jpg)
