@@ -22,7 +22,7 @@ As of Desember 2020, I became the Head of the Supervisory Board in PPI Leipzig. 
 I am also currently assigned as the coordinator in Leipzig, to distribute assistance from the Indonesian Embassy in Berlin.
 
 ## Badminton
-I am an avid badminton fan. I follow the tournaments, I play the game, you name it. If you happen to also play badminton, let me know! 
+I am an avid badminton fan. I follow the tournaments, I play the game, you name it. If you also happen to play badminton, let me know! 
 
 
 ## Programming
