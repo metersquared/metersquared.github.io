@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Pribadi
+lang: id
 permalink: /id/personal
 ---
 
