@@ -22,6 +22,9 @@ I am also currently assigned as the coordinator in Leipzig, to distribute assist
 ## Badminton
 I am an avid badminton fan. I follow the tournaments, I play the game, you name it. If you also happen to play badminton, let me know! 
 
+## Project Euler
+In 2021, I started doing problems in Project Euler, add me as a friend and lets do some fun problems together! Key: 1344993_vwRAIHJU9UeEEdHhCVOIGmUZcAsvoFIU
+
 ## Photos of Me
 
 ![Tutoring for the Saxony Preparatory College Admission Test](/assets/images/personal/tutor.JPG)
