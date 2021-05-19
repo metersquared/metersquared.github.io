@@ -12,7 +12,7 @@ As part of my project-oriented course, I conducted some computational work for t
 
 ### Bachelor thesis student with the Quantum Statistical Physics Group (12.2018-present)
 
-I am currently writing my bachelor thesis with the Quantum Statistical Physics Group, involving a real-space analysis of conventional superconductors under magnetic fields.
+I have written my bachelor thesis with the Quantum Statistical Physics Group, with the topic ["Conventional superconductors in a magnetic field: The vortex state"](https://github.com/metersquared/SCInMagField/blob/10372cbfd360009ccc24d86bbe636aba8ad39c53/FinalDraft_BachelorThesis.pdf). This thesis discusses the physical properties of a conventional superconductor when subjected to a magnetic field, under both microscopic and phenomenological viewpoints.
 
 ## Programming
 My interest in programming started during a C# course I took back during my time in Finland. If I'm not busy with my studies and organization duties, I like to improve on my programming skills. Nowadays, the list of programming languages that I'm familiar with are growing slowly, but surely. Thanks in part to my physics studies.
