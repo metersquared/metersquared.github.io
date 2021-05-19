@@ -13,4 +13,6 @@ Sebagai mata kuliah proyek, saya mengerjakan tugas komputasi bersama grup Fisika
 
 ### Siswa Skripsi S1 dengan Quantum Statistical Physics Group (12.2018-present)
 
-Saat ini saya sedang mengerjakan skripsi S1 saya dengan grup Fisika Kuantum Statistik, dalam bidang superkonduktivitas.
+Saya telah menulis skripsi S1 saya bertemakan, ["Conventional superconductors in a magnetic field: The vortex state"](https://github.com/metersquared/SCInMagField/blob/10372cbfd360009ccc24d86bbe636aba8ad39c53/FinalDraft_BachelorThesis.pdf), bersama grup Fisika Statistik Kuantum di Universitas Leipzig. Tesis ini membahas berbagai properti fisikal dari superkonduktivitas konvensial dengan pendekatan mikroskopik dan fenomenologis.
+
+Terima kasih saya berikan kepada [Dr. Andreas Kreisel](http://www.physik.uni-leipzig.de/~kreisel/index.php), untuk perannya sebagai pembimbing dalam tesis ini.
