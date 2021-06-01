@@ -39,7 +39,7 @@ menu:
   id: "Menu:"
 archive:
   en: "Welcome to the archives of this blog. Below, you will find all published posts listed in reverse chronological order."
-  id: "Selamat datang di arkiv blog. Dibawh ini kamu bisa melihat semua pos dalam urutan kronologis terbalik."
+  id: "Selamat datang di arkiv blog. Dibawah ini kamu bisa melihat semua pos dalam urutan kronologis terbalik."
 all_posts:
   en: ["See", "all published posts"]
   id: ["Lihat", "semua pos terpublikasi"]
