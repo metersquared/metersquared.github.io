@@ -11,6 +11,6 @@ seo:
   title: Arya Prasetya, Pengamat Fenomena Alam
 ---
 
-Sedang menimba ilmu untuk menjadi fisikawan teoritis.
+Sedang menimba ilmu untuk menjadi fisikawan komputasi.
 
-Aku adalah seorang pelajar S1 Fisika di [Universitas Leipzig](https://www.uni-leipzig.de/). Minat penilitianku berada pada bidang teori benda terkondensasi dan fisika komputasi. Saat ini aku memulai pendidikan jenjang Sarjana 2 Fisika Matematik di Leipzig.
+Aku adalah seorang pelajar S2 Ilmu Komputasi di [Universitas Teknik Berlin](https://www.tu.berlin/). Minat penilitianku berada pada bidang teori benda terkondensasi dan fisika komputasi. Saat ini aku memulai pendidikan jenjang Sarjana 2 Ilmu Komputasi di Berlin.

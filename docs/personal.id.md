@@ -15,8 +15,12 @@ Sebagai anggota divisi pendidikan, aku membantu para pelajar Indonesia yang memb
 ### Wakil Ketua, PPI Leipzig (12.2019-11.2020)
 Sewaktu masa aku menjabat sebagai wakil ketua, aku mengabil peran aktif di kegiatan harian organisasi. Bebarapa terobosan yang PPI Leipzig capai termasuk; launching situs PPI Leipzig, mendaftarkan PPI Leipzig menjadi badan organisasi resmi di Universitas Leipzig.
 
-### Ketua BPKK, PPI Leipzig (12.2020-sekarang)
-Sejak Desember 2020, aku telah menjada Ketua Badan Pengawas Kegiatan dan Keuangan PPI Leipzig. Disini aku membantu supervisi kegiatan dan program kerja PPI Leipzig.
+### Ketua BPKK, PPI Leipzig (12.2020-12.2021)
+Aku telah menjabat sebagai Ketua Badan Pengawas Kegiatan dan Keuangan PPI Leipzig di Kepengurusan tahun 2020. Disini aku membantu supervisi kegiatan dan program kerja PPI Leipzig.
+
+### Staf, Departemen Pendidikan dan Advokasi Mahasiswa PPI Berlin (01.2023 - sekarang)
+
+Sejak awal tahun 2023, aku menjadi staf Departemen Pendidikan dan Advokasi Mahasiswa di PPI Berlin. Saat ini aku diberi tanggung jawab mengurus Berlin Brandenburg Connect, sebuah platform networking buat pelajar di PPI Berlin. 
 
 ## Badminton
 Aku gila berat dengan badminton. Kalau kamu juga main, ajak-ajak yaaa~

@@ -9,6 +9,6 @@ seo:
   title: Arya Prasetya, Aspiring Physicist
 ---
 
-A theoretical physicist in training.
+A computational physicist in training.
 
-I'm currrently a graduate student at [Leipzig University](https://www.uni-leipzig.de/). My interest is in condensed matter theory and computational physics. At the moment, I have just enrolled to the Mathematical Physics Programme in Leipzig.
+I'm currrently a graduate student at [Technical University of Berlin](https://www.tu.berlin/). My interest is in condensed matter theory and computational physics. At the moment, I am a 3rd Semester Scientific Computing Student in Berlin.

@@ -14,7 +14,7 @@ As a member of the education division, I help organize tutor as well as seminar 
 ### Vice President, PPI Leipzig (12.2019-11.2020)
 During my time as the Vice President, I took an active part in the day-to-day affairs of the organization. Some milestones reached by PPI Leipzig are; launching of PPI Leipzig's official website and officially registered as a student body (Arbeitsgruppe) in Leipzig University. 
 
-### Head of Supervisory Board, PPI Leipzig (12.2020-present)
+### Head of Supervisory Board, PPI Leipzig (12.2020-12.2021)
 As of Desember 2020, I became the Head of the Supervisory Board in PPI Leipzig. My duties include supervision and conflict-resolution within PPI Leipzig, as needed.
 
 I am also currently assigned as the coordinator in Leipzig, to distribute assistance from the Indonesian Embassy in Berlin.
