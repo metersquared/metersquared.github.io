@@ -130,6 +130,7 @@ trajectory_dnet = ddg.sample_smooth_net(trajectory_snet, sampling=sampling_curve
 
 # [visualization-1]
 black = material("black", (0, 0, 0), 0, 0)
+red = material("red", (204, 0, 0), 0, 0)
 
 
 # [visualization-2]
@@ -151,7 +152,7 @@ def visualize_2d_curve(
 
 def visualize_simple_pendulum(
     idx,
-    amplitudes=[0.4, 0.3, 0.2, 0.1, 0.04, 0.03, 0.02, 0.01],
+    amplitudes=[0.4],
     n_sampling=100,
     link=False,
 ):
@@ -185,13 +186,34 @@ def visualize_simple_pendulum(
         def amp_parametrization(u):
             return parametrization(u, A=A)
 
+        def energy_pot(u, A=0.4, r=1, w=1):
+            """Potential energy"""
+            l = 4 * r
+            k = np.sin(A * np.pi / 2)
+            theta = lambda t: 2 * np.arcsin(
+                k * ellipj(w * t, k)[1] / ellipj(w * t, k)[2]
+            )
+            return [4, l * (1 - np.cos(theta(u))) - l]
+
+        def energy_kin(u, A=0.4, r=1, w=1):
+            """Kinetic energy"""
+            l = 4 * r
+            k = np.sin(A * np.pi / 2)
+            theta = lambda t: 2 * np.arcsin(
+                k * ellipj(w * t, k)[1] / ellipj(w * t, k)[2]
+            )
+            return [5, l * (np.cos(theta(u)) - np.cos(A * np.pi)) - l]
+
         # Net to sample mass trajectory
         path_snet = ddg.nets.SmoothNet(amp_parametrization, domain=domain)
         path_dnet = ddg.sample_smooth_net(path_snet, sampling=sampling)
 
-        # String net to sample strings
-        string_snet = ddg.nets.SmoothNet(amp_parametrization, domain=domain)
-        string_dnet = ddg.sample_smooth_net(string_snet, sampling=sampling)
+        # Potential and kinetic energy
+        energy_pot_snet = ddg.nets.SmoothNet(energy_pot, domain=domain)
+        energy_pot_dnet = ddg.sample_smooth_net(energy_pot_snet, sampling=sampling)
+
+        energy_kin_snet = ddg.nets.SmoothNet(energy_kin, domain=domain)
+        energy_kin_dnet = ddg.sample_smooth_net(energy_kin_snet, sampling=sampling)
 
         # Mass of pendulum
         mass = Point([*path_dnet.fct(idx), 0, 1])
@@ -199,6 +221,13 @@ def visualize_simple_pendulum(
 
         # String
         straight_string = join(mass, Point([0, 0, 0, 1]))
+
+        # Energy bar
+        top_energy_pot = Point([*energy_pot_dnet.fct(idx), 0, 1])
+        top_energy_kin = Point([*energy_kin_dnet.fct(idx), 0, 1])
+
+        bar_energy_pot = join(top_energy_pot, Point([4, -4, 0, 1]))
+        bar_energy_kin = join(top_energy_kin, Point([5, -4, 0, 1]))
 
         # Render visualization
 
@@ -221,8 +250,30 @@ def visualize_simple_pendulum(
             link=link,
         )
 
+        energy_pot_bobj = ddg.to_blender_object_helper(
+            bar_energy_pot,
+            sampling=1,
+            domain=[[0, 1]],
+            curve_properties={"bevel_depth": bevel_line},
+            material=red,
+            name=f"Energy potential - Anplitude={A}",
+            link=link,
+        )
+
+        energy_kin_bobj = ddg.to_blender_object_helper(
+            bar_energy_kin,
+            sampling=1,
+            domain=[[0, 1]],
+            curve_properties={"bevel_depth": bevel_line},
+            material=black,
+            name=f"Energy potential - Anplitude={A}",
+            link=link,
+        )
+
         bobj_list.append(mass_bobj)
         bobj_list.append(str_string_bobj)
+        bobj_list.append(energy_pot_bobj)
+        bobj_list.append(energy_kin_bobj)
 
     return bobj_list
 
