@@ -34,7 +34,12 @@ ninja.data = [{
             window.location.href = "/blog/2019/einstein-notation/";
           
         },
-      },{
+      },{id: "projects-physics-sim",
+          title: 'Physics SIM',
+          description: "A Molecular Dynamics simulator for learning",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/physics_sim/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
