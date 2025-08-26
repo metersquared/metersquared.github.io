@@ -34,7 +34,17 @@ ninja.data = [{
             window.location.href = "/blog/2019/einstein-notation/";
           
         },
-      },{id: "projects-physics-sim",
+      },{id: "projects-pyddg",
+          title: 'Pyddg',
+          description: "A projective geometry library.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PyDDG/";
+            },},{id: "projects-gummy",
+          title: 'gummy',
+          description: "A Heuristic solver for QUBO Problems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gummy/";
+            },},{id: "projects-physics-sim",
           title: 'Physics SIM',
           description: "A Molecular Dynamics simulator for computational experiment and physics visualization.",
           section: "Projects",handler: () => {
