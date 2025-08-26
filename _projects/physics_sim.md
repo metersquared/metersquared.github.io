@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Physics SIM
-description: A Molecular Dynamics simulator for learning
+description: A Molecular Dynamics simulator for computational experiment and physics visualization.
 importance: 1
 category: fun
 redirect: https://github.com/metersquared/physics_sim
