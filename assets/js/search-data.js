@@ -36,7 +36,7 @@ ninja.data = [{
         },
       },{id: "projects-physics-sim",
           title: 'Physics SIM',
-          description: "A Molecular Dynamics simulator for learning",
+          description: "A Molecular Dynamics simulator for computational experiment and physics visualization.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/physics_sim/";
             },},{
