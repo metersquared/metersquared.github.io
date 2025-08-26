@@ -47,6 +47,13 @@ ninja.data = [{
           window.open("mailto:%61%72%79%61.%70%72%61%73%65%74%79%61%31%39%39%37@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/metersquared", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
