@@ -49,6 +49,11 @@ ninja.data = [{
           description: "A Molecular Dynamics simulator for computational experiment and physics visualization.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/physics_sim/";
+            },},{id: "projects-quantum-gabidulin-codes",
+          title: 'quantum Gabidulin codes',
+          description: "A literature review of quantum Gabidulin code.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/quantumgabidulin/";
             },},{
         id: 'social-email',
         title: 'email',
