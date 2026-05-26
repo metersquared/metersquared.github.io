@@ -6,10 +6,10 @@ subtitle: <i>"Nothing is too wonderful to be true." - Michael Faraday</i>
 
 profile:
   align: right
-  image: arya.jpeg
+  image: cv_photo.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Master Candidate Scientific Computing @ <a href='https://www.tu.berlin/'>TU Berlin</a> </p>
+    <p>Computational Scientist and Aspiring Researcher</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -24,8 +24,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-Hi! My name is Arya Prasetya. I am a Master student at TU Berlin, studying Scientific Computing. I have research interests in numerical linear algebra, optimization and quantum computing.
-
-I am currently working as a student assistant in the Technical Acoustics department of TU Berlin, working with C++/Python implementations of state space systems.
+Hi! My name is Arya Prasetya. I am a Master graduate in Scientific Computing. My research interests include low-rank approximations, optimization and quantum computing.
 
 For me,  **physics and math are my passion** —and coding is the tool that lets me keep doing them.
