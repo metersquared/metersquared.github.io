@@ -5,7 +5,7 @@ permalink: /projects/
 description: Some of the projects I have done! (Under construction)
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research, coursework,  fun]
 horizontal: false
 ---
 <!-- pages/projects.md -->

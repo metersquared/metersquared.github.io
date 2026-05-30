@@ -3,12 +3,12 @@ layout: page
 title: Pyddg
 description: A projective geometry library.
 importance: 1
-category: work
+category: research
 #redirect: https://github.com/metersquared/physics_sim
 ---
 *Project Website : [Pyddg](https://www.discretization.de/pyddg/)*
 
-![hippo](https://www.discretization.de/pyddg/doc/v0.4.2/_images/render1.gif)
+{% include figure.liquid loading="eager" path="https://www.discretization.de/pyddg/doc/v0.4.2/_images/render1.gif" class="img-fluid rounded z-depth-1" %}
 
 This is a python library that is used to do projective geometry in Python.
 
