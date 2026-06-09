@@ -6,7 +6,8 @@ subtitle: <i>"Nothing is too wonderful to be true." - Michael Faraday</i>
 
 profile:
   align: right
-  image: cv_photo.jpg  image_circular: true # crops the image to make it circular
+  image: cv_photo.jpg  
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Computational Scientist and Aspiring Researcher</p>
 
