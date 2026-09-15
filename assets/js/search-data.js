@@ -58,9 +58,9 @@ ninja.data = [{
           description: "A Heuristic solver for QUBO Problems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gummy/";
-            },},{id: "projects-inventory-management-and-optimization",
-          title: 'Inventory Management and Optimization',
-          description: "Deterministic inventory models implemented with analytical methods, SCIP, and network shortest paths.",
+            },},{id: "projects-inventory-management",
+          title: 'Inventory Management',
+          description: "Deterministic inventory models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/inventory_management/";
             },},{id: "projects-physics-sim",
